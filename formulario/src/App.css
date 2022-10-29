@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+form {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  
+}
+
+.form-title {
+  display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.form-title h1 {
+  color: rgb(130, 97, 160);
+}
+
+form img {
+  max-width: 100px;
+  margin-left: -50px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid gray ;
+  height: 25px;
+  width: 300px;
+}
+
+button {
+  width: 300px;
+  height: 40px;
+  background-color: rgb(130, 97, 160);
+  color: azure;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  font-size: 16px;
+}
+
+button:hover {
+  opacity: .8;
+}
+
+.span-name {
+  display: flex;
+  align-items: center;
+  margin-top: 5px; 
+}
+
+.span-name .alert {
+  width: 17px;
+  height: 17px;
+  margin-right: 5px;
+  margin-left: 0;
+   
+}
+
+.span-name span {
+  color: red;
+}
