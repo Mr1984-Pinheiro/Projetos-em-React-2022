@@ -61,13 +61,23 @@ button:hover {
   opacity: .8;
 }
 
-.span-name {
+.span-name,
+ .span-email,
+ .span-password,
+ .span-confirmPassword
+ {
   display: flex;
   align-items: center;
   margin-top: 5px; 
+  position: absolute;
+  margin-top: 52px;
 }
 
-.span-name .alert {
+.span-name .alert,
+.span-email .alert,
+.span-password .alert,
+.span-confirmPassword .alert
+{
   width: 17px;
   height: 17px;
   margin-right: 5px;
@@ -75,6 +85,10 @@ button:hover {
    
 }
 
-.span-name span {
+.span-name span,
+.span-email span,
+.span-password span,
+.span-confirmPassword span
+{
   color: red;
 }
